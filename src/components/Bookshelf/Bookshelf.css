@@ -1,0 +1,15 @@
+.parent {
+  text-align: left;
+}
+
+.header {
+  font-family: 'Raleway';
+  align-items: flex-start;
+}
+
+.bodyTitles {
+  font-family: 'Raleway';
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
