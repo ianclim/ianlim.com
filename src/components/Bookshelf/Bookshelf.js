@@ -51,7 +51,6 @@ const readingList = [
   { title: "Creation: Life and How to Make It", url: "https://www.goodreads.com/book/show/304444.Creation"},
   { title: "The Box", url: "https://www.goodreads.com/book/show/316767.The_Box"},
   { title: "Hackers &amp; Painters", url: "https://www.goodreads.com/book/show/41793.Hackers_Painters"},
-
 ]
 
 class Bookshelf extends React.Component {

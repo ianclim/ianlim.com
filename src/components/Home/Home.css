@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  height: 100%;
 }
 
 .name {
@@ -47,6 +48,7 @@ body {
 
 .profilePicture {
   border-radius: 50%;
+  width: 180px;
 }
 
 .bodyTitle {
@@ -58,7 +60,9 @@ body {
 }
 
 .footer {
-  display: flex;
   text-align: center;
   flex-direction: column;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }

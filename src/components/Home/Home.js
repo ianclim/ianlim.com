@@ -100,15 +100,14 @@ class Home extends React.Component {
               transition={{ duration: 0.5 }}
             />
             <p>
-              I'm a sophomore at 🌲&nbsp;
+              I'm a sophomore at&nbsp;
             <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
-            &nbsp;🌲 studying either Computer Science (HCI or AI track) or Symbolic Systems (AI, HCI, or Neuroscience track).
+            &nbsp;studying either Computer Science (HCI or AI track) or Symbolic Systems (HCI, AI, or Neuroscience track).
             I'm also on the&nbsp;
             <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
-            &nbsp;(Stanford's hackathon) organizing team and Stanford's club basketball team.
-            I grew up in the Land of 10,000 Lakes (...Minnesota) and was an avid basketball player growing up and still love to play today.
+            &nbsp;organizing team and Stanford's club basketball team.
             Ever since I was young, I've been curious about how things work.
-            I love working on consumer products, specifically building marketplaces.
+            I love working on consumer products, specifically marketplaces.
             I'm also interested in brain-machine interfaces, fintech, and healthcare infrastructure.
             </p>
             <p>
@@ -121,13 +120,6 @@ class Home extends React.Component {
               Computer Organization and Systems with Lecturer Nick Troccoli, and
               <a target="_blank" href="http://web.stanford.edu/class/cs142/"> CS142: </a>
               Web Applications with Professor Mendel Rosenblum.
-            </p>
-            <p>
-              I'm currently reading&nbsp;
-              <a target="_blank" href="https://www.goodreads.com/book/show/16144575-how-asia-works">How Asia Works</a>
-              &nbsp;by Joe Studwell and&nbsp;
-              <a target="_blank" href="https://www.goodreads.com/book/show/98233.Founders_at_Work">Founders at Work</a>
-              &nbsp;by Jessica Livingston.
             </p>
             <Box mb={-2} mt={5}>
               <h2 className="bodyTitle">
@@ -169,7 +161,7 @@ class Home extends React.Component {
               </ListItem>
             </List>
             <p>
-              I'm also a fellow at the <a target="_blank" href="https://www.gener8tor.com/">Emerging Venture Capitalists Association</a>&nbsp;(Fintech track)
+              I'm also a fellow at the <a target="_blank" href="https://www.evca.org/">Emerging Venture Capitalists Association</a>&nbsp;(Fintech track)
             </p>
             <p>
               Favorite languages/frameworks: MERN stack, React Native, Firebase, Python

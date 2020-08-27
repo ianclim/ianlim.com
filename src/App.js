@@ -15,8 +15,6 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Bookshelf from './components/Bookshelf/Bookshelf';
 
-import { Redirect } from 'react-router';
-
 class App extends React.Component {
   constructor(props) {
     super(props);
