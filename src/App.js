@@ -10,7 +10,6 @@ import {
 import {
   Grid, List, ListItem
 } from '@material-ui/core';
-// import necessary components
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Bookshelf from './components/Bookshelf/Bookshelf';
