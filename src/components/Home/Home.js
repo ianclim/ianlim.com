@@ -70,7 +70,7 @@ class Home extends React.Component {
         </div>
         <Typewriter
           options={{
-            strings: ['Minnesotan ➝ Californian', 'Future samoyed owner', ''],
+            strings: ['Minnesotan ➝ Californian', 'Future samoyed owner', 'Developer', 'Coffee lover'],
             autoStart: true,
             loop: true,
             wrapperClassName: "typewriter",
