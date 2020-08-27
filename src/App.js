@@ -14,6 +14,9 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Bookshelf from './components/Bookshelf/Bookshelf';
 
+ReactGA.initialize('UA-176552765-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 class App extends React.Component {
   constructor(props) {
     super(props);
