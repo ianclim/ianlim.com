@@ -29,152 +29,162 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="mainContainer">
-        <div className="name">
-          <div className="svgAnimation">
-            <motion.svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 110 100"
-              className="item"
-            >
-              <motion.path
-                d={firstName}
-                variants={icon}
-                initial="hidden"
-                animate="visible"
-                transition={{
-                  default: { duration: 4, ease: "easeInOut" },
-                  fill: { duration: 4, ease: [1, 0, 0.8, 1] }
-                }}
-              />
-            </motion.svg>
+      <div>
+        <div className="bodyContainer">
+          <div className="name">
+            <div className="svgAnimation">
+              <motion.svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 110 100"
+                className="item"
+              >
+                <motion.path
+                  d={firstName}
+                  variants={icon}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{
+                    default: { duration: 4, ease: "easeInOut" },
+                    fill: { duration: 4, ease: [1, 0, 0.8, 1] }
+                  }}
+                />
+              </motion.svg>
+            </div>
+            <div className="svgAnimation">
+              <motion.svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 110 100"
+                className="item"
+              >
+                <motion.path
+                  d={lastName}
+                  variants={icon}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{
+                    default: { duration: 4, ease: "easeInOut" },
+                    fill: { duration: 4, ease: [1, 0, 0.8, 1] }
+                  }}
+                />
+              </motion.svg>
+            </div>
           </div>
-          <div className="svgAnimation">
-            <motion.svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 110 100"
-              className="item"
-            >
-              <motion.path
-                d={lastName}
-                variants={icon}
-                initial="hidden"
-                animate="visible"
-                transition={{
-                  default: { duration: 4, ease: "easeInOut" },
-                  fill: { duration: 4, ease: [1, 0, 0.8, 1] }
-                }}
-              />
-            </motion.svg>
-          </div>
-        </div>
-        <Typewriter
-          options={{
-            strings: ['Minnesotan ➝ Californian', 'Future samoyed owner', 'Developer', 'Coffee lover'],
-            autoStart: true,
-            loop: true,
-            wrapperClassName: "typewriter",
-            cursorClassName: "cursor",
-            delay: 60
-          }}
-        />
-        <img src={profilePicture} height='200' width='200' className="profilePicture" />
-        <p style={{ textAlign: 'center' }}>
-          <a target="_blank" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
-            &nbsp;|&nbsp;
-             <a target="_blank" href="https://twitter.com/IanCLim">Twitter</a>
-             &nbsp;|&nbsp;
-             <a target="_blank" href="https://stanford.box.com/s/gwf8t5fklia3z0ayo23lvb3p19kfvqzu">Resume</a>
-             &nbsp;|&nbsp;
-             <a href="mailto:ianlim@stanford.edu">Email</a>
-        </p>
-        <div className="bodyText">
-          <Box mt={3}>
-            <h2 className="bodyTitle">
-              Hi!
-            </h2>
-            <motion.div
-              animate={{ scale: 2 }}
-              transition={{ duration: 0.5 }}
-            />
-            <p>
-              I'm a sophomore at&nbsp;
-            <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
-            &nbsp;studying either Computer Science (HCI or AI track) or Symbolic Systems (HCI, AI, or Neuroscience track).
-            I'm also on the&nbsp;
-            <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
-            &nbsp;organizing team and Stanford's club basketball team.
-            Ever since I was young, I've been curious about how things work.
-            I love working on consumer products, specifically marketplaces.
-            I'm also interested in brain-machine interfaces, fintech, and healthcare infrastructure.
-            </p>
-            <p>
-              Some of my favorite classes at Stanford are as follows:
-              <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS56N"> CS56N: </a>
-              Great Discoveries and Inventions in Computing with Professor John Hennessy,
-              <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=THINK%2068:%20Our%20Genome&academicYear=20192020"> Think68: </a>
-              Our Genome with Dr. Gilbert Chu,
-              <a target="_blank" href="http://web.stanford.edu/class/cs107/"> CS107: </a>
-              Computer Organization and Systems with Lecturer Nick Troccoli, and
-              <a target="_blank" href="http://web.stanford.edu/class/cs142/"> CS142: </a>
-              Web Applications with Professor Mendel Rosenblum.
-            </p>
-            <Box mb={-2} mt={5}>
+          <Typewriter
+            options={{
+              strings: ['Minnesota ⇄ California', 'Future samoyed owner', 'Software Developer', 'Coffee lover', 'Product Manager'],
+              autoStart: true,
+              loop: true,
+              wrapperClassName: "typewriter",
+              cursorClassName: "cursor",
+              delay: 60
+            }}
+          />
+          <img src={profilePicture} height='200' width='200' className="profilePicture" />
+          <p style={{ textAlign: 'center' }}>
+            <a target="_blank" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
+              &nbsp;|&nbsp;
+              <a target="_blank" href="https://twitter.com/IanCLim">Twitter</a>
+              &nbsp;|&nbsp;
+              <a target="_blank" href="https://stanford.box.com/s/gwf8t5fklia3z0ayo23lvb3p19kfvqzu">Resume</a>
+              &nbsp;|&nbsp;
+              <a href="mailto:ianlim@stanford.edu">Email</a>
+          </p>
+          <div className="bodyText">
+            <Box mt={3}>
               <h2 className="bodyTitle">
-                Professional experiences
-                </h2>
+                Hi!
+              </h2>
+              <motion.div
+                animate={{ scale: 2 }}
+                transition={{ duration: 0.5 }}
+              />
+              <p>
+                I'm a sophomore at&nbsp;
+              <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
+              &nbsp;studying either Computer Science (HCI or AI track) or Symbolic Systems (HCI, AI, or Neuroscience track).
+              I'm currently working taking a leave of absence to work on improving search at Poshmark and a few personal projects. 
+              At Stanford, I'm on the&nbsp;
+              <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
+              &nbsp;organizing team and Stanford's club basketball team.
+              Ever since I was young, I've been curious about how things work.
+              I love working on consumer products, specifically marketplaces.
+              I'm also interested in brain-machine interfaces, fintech, and healthcare infrastructure.
+              </p>
+              <p>
+                Some of my favorite classes at Stanford are as follows:
+                <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS56N"> CS56N: </a>
+                Great Discoveries and Inventions in Computing with Professor John Hennessy,
+                <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=THINK%2068:%20Our%20Genome&academicYear=20192020"> Think68: </a>
+                Our Genome with Dr. Gilbert Chu,
+                <a target="_blank" href="http://web.stanford.edu/class/cs107/"> CS107: </a>
+                Computer Organization and Systems with Lecturer Nick Troccoli, and
+                <a target="_blank" href="http://web.stanford.edu/class/cs142/"> CS142: </a>
+                Web Applications with Professor Mendel Rosenblum.
+              </p>
+              <Box mb={-2} mt={5}>
+                <h2 className="bodyTitle">
+                  Professional experiences
+                  </h2>
+              </Box>
+              <List>
+                <ListItem>
+                  <ListItemText>
+                    - Product Management Intern at&nbsp;
+                  <a target="_blank" href="https://poshmark.com/">Poshmark</a>
+                  , working on search [Current]
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    - Research Assistant under&nbsp;
+                  <a target="_blank" href="https://www.gsb.stanford.edu/faculty-research/faculty/ilya-strebulaev">Professor Ilya Strebulaev</a>
+                  &nbsp;at&nbsp;
+                  <a target="_blank" href="https://www.gsb.stanford.edu/">Stanford GSB</a>
+                  &nbsp;[Summer 2020]
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    - Software Engineering Intern at the&nbsp;
+                    <a target="_blank" href="https://center4mi.org/">Center for Medial Interoperability</a>
+                    &nbsp;[Summer 2020]
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    - Venture Capital Analyst Intern at&nbsp;
+                  <a target="_blank" href="https://greatnorthlabs.com/">Great North Labs</a>
+                  &nbsp;[Summer 2019]
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    - Associate at&nbsp;
+                  <a target="_blank" href="https://www.gener8tor.com/">gener8tor</a>
+                  &nbsp;|&nbsp;
+                  <a target="_blank" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
+                  &nbsp;[Summer 2018]
+                  </ListItemText>
+                </ListItem>
+              </List>
+              <p>
+                I'm also a fellow at the <a target="_blank" href="https://www.evca.org/">Emerging Venture Capitalists Association</a>&nbsp;(Fintech track)
+              </p>
+              <p>
+                Favorite languages/frameworks: MERN stack, React Native, Firebase, Python
+              </p>
             </Box>
-            <List>
-              <ListItem>
-                <ListItemText>
-                  - Research Assistant under&nbsp;
-                <a target="_blank" href="https://www.gsb.stanford.edu/faculty-research/faculty/ilya-strebulaev">Professor Ilya Strebulaev</a>
-                &nbsp;at&nbsp;
-                <a target="_blank" href="https://www.gsb.stanford.edu/">Stanford GSB</a>
-                &nbsp;[Current]
-                </ListItemText>
-              </ListItem>
-              <ListItem>
-                <ListItemText>
-                  - Summer Intern at the&nbsp;
-                  <a target="_blank" href="https://center4mi.org/">Center for Medial Interoperability</a>
-                  &nbsp;[Current]
-                </ListItemText>
-              </ListItem>
-              <ListItem>
-                <ListItemText>
-                  - Venture Capital Analyst Intern at&nbsp;
-                <a target="_blank" href="https://greatnorthlabs.com/">Great North Labs</a>
-                &nbsp;[Summer 2019]
-                </ListItemText>
-              </ListItem>
-              <ListItem>
-                <ListItemText>
-                  - Associate at&nbsp;
-                <a target="_blank" href="https://www.gener8tor.com/">gener8tor</a>
-                &nbsp;|&nbsp;
-                <a target="_blank" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
-                &nbsp;[Summer 2018]
-                </ListItemText>
-              </ListItem>
-            </List>
-            <p>
-              I'm also a fellow at the <a target="_blank" href="https://www.evca.org/">Emerging Venture Capitalists Association</a>&nbsp;(Fintech track)
-            </p>
-            <p>
-              Favorite languages/frameworks: MERN stack, React Native, Firebase, Python
-            </p>
-          </Box>
+          </div>
         </div>
-        <div>&nbsp;</div>
-        <Divider />
-        <div>&nbsp;</div>
         <div className="footer">
+          <Divider />
+          <div>&nbsp;</div>
           <div>
             Made by Ian Lim
           </div>
           <div>
-            Source code for this website can be found on my GitHub.
+            Source code for this website can be found on my&nbsp;
+            <a target="_blank" href="https://github.com/ianclim/ianlim.com">GitHub</a>.
           </div>
           <div>
             Built using&nbsp;

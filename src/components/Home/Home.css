@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+.bodyContainer {
+  margin-bottom: 100px;
+}
+
 .name {
   display: flex;
   flex-direction: row;
@@ -60,9 +64,8 @@ body {
 }
 
 .footer {
-  text-align: center;
+  align-items: center;
   flex-direction: column;
-  position: relative;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  bottom: 0;
+  height: 100px;
 }
