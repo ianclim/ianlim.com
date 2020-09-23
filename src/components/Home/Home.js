@@ -102,7 +102,7 @@ class Home extends React.Component {
                 I'm a sophomore at&nbsp;
               <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
               &nbsp;studying either Computer Science (HCI or AI track) or Symbolic Systems (HCI, AI, or Neuroscience track).
-              I'm currently working taking a leave of absence to work on improving search at Poshmark and a few personal projects. 
+              I'm currently taking a leave of absence to work on improving search at Poshmark and a few personal projects. 
               At Stanford, I'm on the&nbsp;
               <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
               &nbsp;organizing team and Stanford's club basketball team.
