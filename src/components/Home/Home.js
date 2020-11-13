@@ -71,7 +71,7 @@ class Home extends React.Component {
           </div>
           <Typewriter
             options={{
-              strings: ['Minnesota ⇄ California', 'Future samoyed owner', 'Software Developer', 'Coffee lover', 'Product Manager'],
+              strings: ['Minnesota ⇄ California', 'Software Engineer', 'Future samoyed owner', 'Coffee lover', 'Product Manager'],
               autoStart: true,
               loop: true,
               wrapperClassName: "typewriter",
@@ -81,11 +81,11 @@ class Home extends React.Component {
           />
           <img src={profilePicture} height='200' width='200' className="profilePicture" />
           <p style={{ textAlign: 'center' }}>
+          <a target="_blank" href="https://stanford.box.com/s/gwf8t5fklia3z0ayo23lvb3p19kfvqzu">Resume</a>
+              &nbsp;|&nbsp;
             <a target="_blank" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
               &nbsp;|&nbsp;
               <a target="_blank" href="https://twitter.com/IanCLim">Twitter</a>
-              &nbsp;|&nbsp;
-              <a target="_blank" href="https://stanford.box.com/s/gwf8t5fklia3z0ayo23lvb3p19kfvqzu">Resume</a>
               &nbsp;|&nbsp;
               <a href="mailto:ianlim@stanford.edu">Email</a>
           </p>
@@ -101,7 +101,7 @@ class Home extends React.Component {
               <p>
                 I'm a sophomore at&nbsp;
               <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
-              &nbsp;studying either Computer Science (HCI or AI track) or Symbolic Systems (HCI, AI, or Neuroscience track).
+              &nbsp;studying either Computer Science (AI track) or Symbolic Systems (Neuroscience track).
               I'm currently taking a leave of absence to work on improving search at Poshmark and a few personal projects. 
               At Stanford, I'm on the&nbsp;
               <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
@@ -121,6 +121,12 @@ class Home extends React.Component {
                 <a target="_blank" href="http://web.stanford.edu/class/cs142/"> CS142: </a>
                 Web Applications with Professor Mendel Rosenblum.
               </p>
+              <p>
+                Personal project: "Apply with API" — I'm currently building a tool to allow companies to accept job applications through a custom API endpoint with a simple 
+                POST request from job candidates (
+                  <a target="_blank" href="https://www.loom.com/share/34dd747e38424abe8040508f6ef8d6d1" >demo link</a>). 
+                  I'm using Node.js to develop my API endpoints, React for UI, and MongoDB Cloud as my backend database. Launching very soon!
+              </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
                   Professional experiences
@@ -129,7 +135,7 @@ class Home extends React.Component {
               <List>
                 <ListItem>
                   <ListItemText>
-                    - Product Management Intern at&nbsp;
+                    - Software Engineering &amp; Product Management Intern at&nbsp;
                   <a target="_blank" href="https://poshmark.com/">Poshmark</a>
                   , working on search [Current]
                   </ListItemText>
