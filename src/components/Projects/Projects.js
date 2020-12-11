@@ -21,7 +21,7 @@ class Projects extends React.Component {
           actually work on something that applies, builds on, leverages this new idea.
         </p>
         <p>
-          I'm currently working on a social e-commerce shopping app with my roommate from college. If you're interested in learning more about our project, please reach out!
+          I'm currently working on a tool to enable any company to accept job applications through an API POST request and a "virtual dressing room" project with my roommate from college.
         </p>
         <p>
           Here's what I've previously worked on:
