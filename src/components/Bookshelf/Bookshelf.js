@@ -65,8 +65,7 @@ class Bookshelf extends React.Component {
           Bookshelf
         </h1>
         <p>
-          I'm always excited to learn about new book recommendations from others. I'm currently interested in learning more about the rapid growth in many areas of Asia, machine learning
-          applications, and brain machine interfaces.
+          I'm always excited to learn about new book recommendations from others. I'm currently interested in learning more about the rapid growth in many areas of Asia, API design/applications, and brain machine interfaces.
         </p>
         <p>
           I haven't found a permanent tool to track my reading list, so I decided to upload it here instead. I've created two lists:
@@ -75,8 +74,8 @@ class Bookshelf extends React.Component {
         </p>
         <p>
           I'm currently reading&nbsp;
-          <a target="_blank" href="https://www.goodreads.com/book/show/16144575-how-asia-works">How Asia Works</a>
-          &nbsp;by Joe Studwell and&nbsp;
+          <a target="_blank" href="https://www.goodreads.com/en/book/show/48930275-how-i-built-this">How I Built This</a>
+          &nbsp;by Guy Raz and&nbsp;
           <a target="_blank" href="https://www.goodreads.com/book/show/98233.Founders_at_Work">Founders at Work</a>
           &nbsp;by Jessica Livingston.
         </p>
