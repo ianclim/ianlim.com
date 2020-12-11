@@ -133,6 +133,13 @@ class Home extends React.Component {
                   </h2>
               </Box>
               <List>
+              <ListItem>
+                  <ListItemText>
+                    - Product Management Intern at&nbsp;
+                  <a target="_blank" href="https://www.tesla.com">Tesla</a>
+                  &nbsp;[Incoming]
+                  </ListItemText>
+                </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Software Engineering &amp; Product Management Intern at&nbsp;
