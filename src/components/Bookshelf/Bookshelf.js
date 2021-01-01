@@ -2,8 +2,10 @@ import React from 'react';
 import './Bookshelf.css';
 
 const favoriteReadings = [
+  { title: "Know My Name", url: "https://www.goodreads.com/book/show/50196744-know-my-name"},
   { title: "Bad Blood: Secrets and Lies in a Silicon Valley Startup", url: "https://www.goodreads.com/book/show/37976541-bad-blood" },
   { title: "The Diving Bell and the Butterfly", url: "https://www.goodreads.com/book/show/193755.The_Diving_Bell_and_the_Butterfly" },
+  { title: "Jony Ive: The Genius Behind Apple's Greatest Products", url: "https://www.goodreads.com/book/show/17707768-jony-ive"},
   { title: "Zero to One", url: "https://www.goodreads.com/book/show/18050143-zero-to-one" },
   { title: "The History of the Future", url: "https://www.goodreads.com/en/book/show/34017056-the-history-of-the-future" },
   { title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future", url: "https://www.goodreads.com/book/show/25541028-elon-musk" },
@@ -22,7 +24,6 @@ const favoriteReadings = [
 const readingList = [
   { title: "Atlas Shrugged", url: "https://www.goodreads.com/book/show/662.Atlas_Shrugged"},
   { title: "Return to the Little Kingdom", url: "https://www.goodreads.com/pt/book/show/6937258-return-to-the-little-kingdom"},
-  { title: "Know My Name", url: "https://www.goodreads.com/book/show/50196744-know-my-name"},
   { title: "When Genius Failed", url: "https://www.goodreads.com/book/show/10669.When_Genius_Failed"},
   { title: "The Rise and Fall of American Growth", url: "https://www.goodreads.com/book/show/26634594-the-rise-and-fall-of-american-growth"},
   { title: "The Autobiography of Benjamin Franklin", url: "https://www.goodreads.com/book/show/52309.The_Autobiography_of_Benjamin_Franklin"},
@@ -74,10 +75,8 @@ class Bookshelf extends React.Component {
         </p>
         <p>
           I'm currently reading&nbsp;
-          <a target="_blank" href="https://www.goodreads.com/en/book/show/48930275-how-i-built-this">How I Built This</a>
-          &nbsp;by Guy Raz and&nbsp;
-          <a target="_blank" href="https://www.goodreads.com/book/show/98233.Founders_at_Work">Founders at Work</a>
-          &nbsp;by Jessica Livingston.
+          <a target="_blank" href="https://www.goodreads.com/book/show/54140556-working-in-public">Working in Public: The Making and Maintenance of Open Source Software</a>
+          &nbsp;Nadia Eghbal.
         </p>
         <h4 className="bodyTitles">
           Favorite readings
