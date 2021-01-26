@@ -76,7 +76,7 @@ class Bookshelf extends React.Component {
         <p>
           I'm currently reading&nbsp;
           <a target="_blank" href="https://www.goodreads.com/book/show/54140556-working-in-public">Working in Public: The Making and Maintenance of Open Source Software</a>
-          &nbsp;Nadia Eghbal.
+          &nbsp;by Nadia Eghbal.
         </p>
         <h4 className="bodyTitles">
           Favorite readings

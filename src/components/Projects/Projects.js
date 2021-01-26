@@ -21,7 +21,9 @@ class Projects extends React.Component {
           actually work on something that applies, builds on, leverages this new idea.
         </p>
         <p>
-          I'm currently working on a tool to enable any company to accept job applications through an API POST request and a "virtual dressing room" project with my roommate from college.
+          I'm currently working on&nbsp;
+          <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
+          : a tool to enable any company to accept job applications through an API POST request. I'm also building a "virtual dressing room" project with my college roommate.
         </p>
         <p>
           Here's what I've previously worked on:

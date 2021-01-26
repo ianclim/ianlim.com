@@ -108,7 +108,7 @@ class Home extends React.Component {
               &nbsp;organizing team and Stanford's club basketball team.
               Ever since I was young, I've been curious about how things work.
               I love working on consumer products, specifically marketplaces.
-              I'm also interested in brain-machine interfaces, fintech, and healthcare infrastructure.
+              I'm also interested in open source software, brain-machine interfaces, API design, fintech, and healthcare infrastructure.
               </p>
               <p>
                 Some of my favorite classes at Stanford are as follows:
@@ -122,10 +122,9 @@ class Home extends React.Component {
                 Web Applications with Professor Mendel Rosenblum.
               </p>
               <p>
-                Personal project: "Apply with API" — I'm currently building a tool to allow companies to accept job applications through a custom API endpoint with a simple 
-                POST request from job candidates (
-                  <a target="_blank" href="https://www.loom.com/share/34dd747e38424abe8040508f6ef8d6d1" >demo link</a>). 
-                  I'm using Node.js to develop my API endpoints, React for UI, and MongoDB Cloud as my backend database. Launching very soon!
+                I'm currently working on&nbsp;
+                <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
+                : a tool to enable any company to accept job applications through an API POST request.
               </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
@@ -137,14 +136,14 @@ class Home extends React.Component {
                   <ListItemText>
                     - Product Management Intern at&nbsp;
                   <a target="_blank" href="https://www.tesla.com">Tesla</a>
-                  &nbsp;[Incoming]
+                  &nbsp;[Current]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Software Engineering &amp; Product Management Intern at&nbsp;
                   <a target="_blank" href="https://poshmark.com/">Poshmark</a>
-                  , working on search [Current]
+                  , working on search [Fall 2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
