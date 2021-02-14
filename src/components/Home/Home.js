@@ -71,7 +71,7 @@ class Home extends React.Component {
           </div>
           <Typewriter
             options={{
-              strings: ['Minnesota ⇄ California', 'Software Engineer', 'Future samoyed owner', 'Coffee lover', 'Product Manager'],
+              strings: ['Minnesota ⇄ California', 'Building something new', 'Future samoyed owner', 'Coffee lover'],
               autoStart: true,
               loop: true,
               wrapperClassName: "typewriter",
@@ -102,7 +102,7 @@ class Home extends React.Component {
                 I'm a sophomore at&nbsp;
               <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
               &nbsp;studying either Computer Science (AI track) or Symbolic Systems (Neuroscience track).
-              I'm currently taking a leave of absence to work at Tesla and Poshmark along with a few personal projects. 
+              I'm currently taking a leave of absence to work at Tesla along with a few personal projects. 
               At Stanford, I'm on the&nbsp;
               <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
               &nbsp;organizing team and Stanford's club basketball team.
@@ -111,7 +111,9 @@ class Home extends React.Component {
               I'm also interested in open source software, brain-machine interfaces, API design, fintech, and healthcare infrastructure.
               </p>
               <p>
-                Some of my favorite classes at Stanford are as follows:
+                Some of my favorite classes at Stanford:
+                <a target="_blank" href="https://explorecourses.stanford.edu/search?q=EE+124%3A+Introduction+to+Neuroelectrical+Engineering&filter-coursestatus-Active=on&view=catalog&academicYear=20102011"> EE124: </a>
+                Introduction to Neuroelectrical Engineering,
                 <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS56N"> CS56N: </a>
                 Great Discoveries and Inventions in Computing with Professor John Hennessy,
                 <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=THINK%2068:%20Our%20Genome&academicYear=20192020"> Think68: </a>
@@ -143,7 +145,7 @@ class Home extends React.Component {
                   <ListItemText>
                     - Software Engineering &amp; Product Management Intern at&nbsp;
                   <a target="_blank" href="https://poshmark.com/">Poshmark</a>
-                  , working on search [Fall 2020]
+                  , working on search [2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -152,21 +154,21 @@ class Home extends React.Component {
                   <a target="_blank" href="https://www.gsb.stanford.edu/faculty-research/faculty/ilya-strebulaev">Professor Ilya Strebulaev</a>
                   &nbsp;at&nbsp;
                   <a target="_blank" href="https://www.gsb.stanford.edu/">Stanford GSB</a>
-                  &nbsp;[Summer 2020]
+                  &nbsp;[2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Software Engineering Intern at the&nbsp;
                     <a target="_blank" href="https://center4mi.org/">Center for Medial Interoperability</a>
-                    &nbsp;[Summer 2020]
+                    &nbsp;[2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Venture Capital Analyst Intern at&nbsp;
                   <a target="_blank" href="https://greatnorthlabs.com/">Great North Labs</a>
-                  &nbsp;[Summer 2019]
+                  &nbsp;[2019]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -175,15 +177,12 @@ class Home extends React.Component {
                   <a target="_blank" href="https://www.gener8tor.com/">gener8tor</a>
                   &nbsp;|&nbsp;
                   <a target="_blank" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
-                  &nbsp;[Summer 2018]
+                  &nbsp;[2018]
                   </ListItemText>
                 </ListItem>
               </List>
               <p>
-                I'm also a fellow at the <a target="_blank" href="https://www.evca.org/">Emerging Venture Capitalists Association</a>&nbsp;(Fintech track)
-              </p>
-              <p>
-                Favorite languages/frameworks: MERN stack, React Native, Firebase, Python
+                Favorite languages/frameworks: MERN stack, Python, Pandas, Firebase
               </p>
             </Box>
           </div>
@@ -200,7 +199,7 @@ class Home extends React.Component {
           </div>
           <div>
             Built using&nbsp;
-            <a target="_blank" href="https://reactjs.org/">React Native</a>
+            <a target="_blank" href="https://reactjs.org/">React</a>
             ,&nbsp;
             <a target="_blank" href="https://www.framer.com/api/motion/">Framer Motion</a>
             ,&nbsp;
