@@ -81,8 +81,6 @@ class Home extends React.Component {
           />
           <img src={profilePicture} height='200' width='200' className="profilePicture" />
           <p style={{ textAlign: 'center' }}>
-          <a target="_blank" href="https://stanford.box.com/s/gwf8t5fklia3z0ayo23lvb3p19kfvqzu">Resume</a>
-              &nbsp;|&nbsp;
             <a target="_blank" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
               &nbsp;|&nbsp;
               <a target="_blank" href="https://twitter.com/IanCLim">Twitter</a>
@@ -119,9 +117,7 @@ class Home extends React.Component {
                 <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=THINK%2068:%20Our%20Genome&academicYear=20192020"> Think68: </a>
                 Our Genome with Dr. Gilbert Chu,
                 <a target="_blank" href="http://web.stanford.edu/class/cs107/"> CS107: </a>
-                Computer Organization and Systems with Lecturer Nick Troccoli, and
-                <a target="_blank" href="http://web.stanford.edu/class/cs142/"> CS142: </a>
-                Web Applications with Professor Mendel Rosenblum.
+                Computer Organization and Systems with Lecturer Nick Troccoli.
               </p>
               <p>
                 I'm currently working on&nbsp;
@@ -145,7 +141,7 @@ class Home extends React.Component {
                   <ListItemText>
                     - Software Engineering &amp; Product Management Intern at&nbsp;
                   <a target="_blank" href="https://poshmark.com/">Poshmark</a>
-                  , working on search [2020]
+                  , search team [2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
