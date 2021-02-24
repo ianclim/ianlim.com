@@ -97,9 +97,9 @@ class Home extends React.Component {
                 transition={{ duration: 0.5 }}
               />
               <p>
-                I'm a sophomore at&nbsp;
+                I'm an undergrad at&nbsp;
               <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
-              &nbsp;studying either Computer Science (AI track) or Symbolic Systems (Neuroscience track).
+              &nbsp;studying Computer Science.
               I'm currently taking a leave of absence to work at Tesla along with a few personal projects. 
               At Stanford, I'm on the&nbsp;
               <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
