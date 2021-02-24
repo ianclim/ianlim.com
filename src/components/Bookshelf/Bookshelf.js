@@ -2,6 +2,7 @@ import React from 'react';
 import './Bookshelf.css';
 
 const favoriteReadings = [
+  { title: "Working in Public: The Making and Maintenance of Open Source Software", url: "https://www.goodreads.com/book/show/54140556-working-in-public"},
   { title: "Know My Name", url: "https://www.goodreads.com/book/show/50196744-know-my-name"},
   { title: "Bad Blood: Secrets and Lies in a Silicon Valley Startup", url: "https://www.goodreads.com/book/show/37976541-bad-blood" },
   { title: "The Diving Bell and the Butterfly", url: "https://www.goodreads.com/book/show/193755.The_Diving_Bell_and_the_Butterfly" },
@@ -75,8 +76,8 @@ class Bookshelf extends React.Component {
         </p>
         <p>
           I'm currently reading&nbsp;
-          <a target="_blank" href="https://www.goodreads.com/book/show/54140556-working-in-public">Working in Public: The Making and Maintenance of Open Source Software</a>
-          &nbsp;by Nadia Eghbal.
+          <a target="_blank" href="https://www.goodreads.com/book/show/35167685-surely-you-re-joking-mr-feynman">Surely You're Joking, Mr. Feynman!</a>
+          &nbsp;by Richard Feynman.
         </p>
         <h4 className="bodyTitles">
           Favorite readings
