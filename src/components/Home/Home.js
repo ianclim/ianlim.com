@@ -100,13 +100,13 @@ class Home extends React.Component {
                 I'm an undergrad at&nbsp;
               <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
               &nbsp;studying Computer Science.
-              I'm currently taking a leave of absence to work at Tesla along with a few personal projects. 
+              I'm currently taking a leave of absence to work at Tesla along with a few personal projects.
               At Stanford, I'm on the&nbsp;
               <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
               &nbsp;organizing team and Stanford's club basketball team.
               Ever since I was young, I've been curious about how things work.
               I love working on consumer products, specifically marketplaces.
-              I'm also interested in open source software, brain-machine interfaces, API design, fintech, and healthcare infrastructure.
+              I'm also interested in open source software, neural interfaces, API design, and healthcare infrastructure.
               </p>
               <p>
                 Some of my favorite classes at Stanford:
@@ -122,7 +122,9 @@ class Home extends React.Component {
               <p>
                 I'm currently working on&nbsp;
                 <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
-                : a tool to enable any company to accept job applications through an API POST request.
+                : a tool to enable any company to accept job applications through an API POST request. I also recently wrote about 
+                scaling open source through venture capital (<a target="_blank" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>)
+                .
               </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
@@ -130,7 +132,7 @@ class Home extends React.Component {
                   </h2>
               </Box>
               <List>
-              <ListItem>
+                <ListItem>
                   <ListItemText>
                     - Product Management Intern at&nbsp;
                   <a target="_blank" href="https://www.tesla.com">Tesla</a>
@@ -180,6 +182,25 @@ class Home extends React.Component {
               <p>
                 Favorite languages/frameworks: MERN stack, Python, Pandas, Firebase
               </p>
+              <Box mb={-2} mt={5}>
+                <h2 className="bodyTitle">
+                  Writing
+                </h2>
+              </Box>
+              <List>
+                <ListItem>
+                  <ListItemText>
+                    - <a target="_blank" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">Scaling Open Source Through Venture Capital</a>
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    - Software Engineering &amp; Product Management Intern at&nbsp;
+                  <a target="_blank" href="https://poshmark.com/">Poshmark</a>
+                  , search team [2020]
+                  </ListItemText>
+                </ListItem>
+                </List>
             </Box>
           </div>
         </div>
