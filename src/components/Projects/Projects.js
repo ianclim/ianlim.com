@@ -23,7 +23,8 @@ class Projects extends React.Component {
         <p>
           I'm currently working on&nbsp;
           <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
-          : a tool to enable any company to accept job applications through an API POST request. I'm also building a "virtual dressing room" project with my college roommate.
+          : a tool to enable any company to accept job applications through an API POST request. I'm also working on a new project in the home care industry. 
+          For Stanford BCI's first year's project, we plan on building a wrist-based EMG wearable device to control a VR headset.
         </p>
         <p>
           Here's what I've previously worked on:

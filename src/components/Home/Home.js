@@ -101,12 +101,12 @@ class Home extends React.Component {
               <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
               &nbsp;studying Computer Science.
               I'm currently taking a leave of absence to work at Tesla along with a few personal projects.
-              At Stanford, I'm on the&nbsp;
+              At Stanford, I'm working with a few students to start Stanford BCI, Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software. 
+              I'm also on the&nbsp;
               <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
               &nbsp;organizing team and Stanford's club basketball team.
               Ever since I was young, I've been curious about how things work.
-              I love working on consumer products, specifically marketplaces.
-              I'm also interested in open source software, neural interfaces, API design, and healthcare infrastructure.
+              I'm most interested in learning about open source software, neural interfaces, API design, and healthcare infrastructure.
               </p>
               <p>
                 Some of my favorite classes at Stanford:
@@ -123,8 +123,7 @@ class Home extends React.Component {
                 I'm currently working on&nbsp;
                 <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
                 : a tool to enable any company to accept job applications through an API POST request. I also recently wrote about 
-                scaling open source through venture capital (<a target="_blank" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>)
-                .
+                scaling open source through venture capital (<a target="_blank" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
               </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
@@ -180,27 +179,8 @@ class Home extends React.Component {
                 </ListItem>
               </List>
               <p>
-                Favorite languages/frameworks: MERN stack, Python, Pandas, Firebase
+                Favorite languages/frameworks: MERN stack, Javascript, Python, Pandas
               </p>
-              <Box mb={-2} mt={5}>
-                <h2 className="bodyTitle">
-                  Writing
-                </h2>
-              </Box>
-              <List>
-                <ListItem>
-                  <ListItemText>
-                    - <a target="_blank" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">Scaling Open Source Through Venture Capital</a>
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemText>
-                    - Software Engineering &amp; Product Management Intern at&nbsp;
-                  <a target="_blank" href="https://poshmark.com/">Poshmark</a>
-                  , search team [2020]
-                  </ListItemText>
-                </ListItem>
-                </List>
             </Box>
           </div>
         </div>
