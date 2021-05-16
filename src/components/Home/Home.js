@@ -123,7 +123,8 @@ class Home extends React.Component {
               <p>
                 I'm currently working on&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://www.joinopencare.com/">OpenCare</a>
-                : a platform to enable home caregivers to become independent of home care agencies. I also recently wrote about 
+                : a platform to enable home caregivers to become independent of home care agencies and a wearable EMG device for a paralyzed individual 
+          to play the piano using their intentions to move their fingers to the correct keys. I also recently wrote about 
                 scaling open source through venture capital (<a target="_blank" rel="noopener noreferrer" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
               </p>
               <Box mb={-2} mt={5}>
