@@ -79,11 +79,11 @@ class Home extends React.Component {
               delay: 60
             }}
           />
-          <img src={profilePicture} height='200' width='200' className="profilePicture" />
+          <img src={profilePicture} height='200' width='200' className="profilePicture" alt="Ian Lim Profile" />
           <p style={{ textAlign: 'center' }}>
-            <a target="_blank" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
               &nbsp;|&nbsp;
-              <a target="_blank" href="https://twitter.com/IanCLim">Twitter</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/IanCLim">Twitter</a>
               &nbsp;|&nbsp;
               <a href="mailto:ianlim@stanford.edu">Email</a>
           </p>
@@ -98,32 +98,33 @@ class Home extends React.Component {
               />
               <p>
                 I'm an undergrad at&nbsp;
-              <a target="_blank" href="https://www.stanford.edu/">Stanford University</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
               &nbsp;studying Computer Science.
               I'm currently taking a leave of absence to work at Tesla along with a few personal projects.
-              At Stanford, I'm working with a few students to start Stanford BCI, Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software. 
+              At Stanford, I'm working with a few students to start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>
+              , Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software. 
               I'm also on the&nbsp;
-              <a target="_blank" href="https://treehacks.com/">TreeHacks</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://treehacks.com/">TreeHacks</a>
               &nbsp;organizing team and Stanford's club basketball team.
               Ever since I was young, I've been curious about how things work.
               I'm most interested in learning about open source software, neural interfaces, API design, and healthcare infrastructure.
               </p>
               <p>
                 Some of my favorite classes at Stanford:
-                <a target="_blank" href="https://explorecourses.stanford.edu/search?q=EE+124%3A+Introduction+to+Neuroelectrical+Engineering&filter-coursestatus-Active=on&view=catalog&academicYear=20102011"> EE124: </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://explorecourses.stanford.edu/search?q=EE+124%3A+Introduction+to+Neuroelectrical+Engineering&filter-coursestatus-Active=on&view=catalog&academicYear=20102011"> EE124: </a>
                 Introduction to Neuroelectrical Engineering,
-                <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS56N"> CS56N: </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&page=0&catalog=&q=CS56N"> CS56N: </a>
                 Great Discoveries and Inventions in Computing with Professor John Hennessy,
-                <a target="_blank" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=THINK%2068:%20Our%20Genome&academicYear=20192020"> Think68: </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=THINK%2068:%20Our%20Genome&academicYear=20192020"> Think68: </a>
                 Our Genome with Dr. Gilbert Chu,
-                <a target="_blank" href="http://web.stanford.edu/class/cs107/"> CS107: </a>
+                <a target="_blank" rel="noopener noreferrer" href="http://web.stanford.edu/class/cs107/"> CS107: </a>
                 Computer Organization and Systems with Lecturer Nick Troccoli.
               </p>
               <p>
                 I'm currently working on&nbsp;
-                <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
-                : a tool to enable any company to accept job applications through an API POST request. I also recently wrote about 
-                scaling open source through venture capital (<a target="_blank" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
+                <a target="_blank" rel="noopener noreferrer" href="https://www.joinopencare.com/">OpenCare</a>
+                : a platform to enable home caregivers to become independent of home care agencies. I also recently wrote about 
+                scaling open source through venture capital (<a target="_blank" rel="noopener noreferrer" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
               </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
@@ -134,46 +135,46 @@ class Home extends React.Component {
                 <ListItem>
                   <ListItemText>
                     - Product Management Intern at&nbsp;
-                  <a target="_blank" href="https://www.tesla.com">Tesla</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.tesla.com">Tesla</a>
                   &nbsp;[Current]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Software Engineering &amp; Product Management Intern at&nbsp;
-                  <a target="_blank" href="https://poshmark.com/">Poshmark</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://poshmark.com/">Poshmark</a>
                   , search team [2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Research Assistant under&nbsp;
-                  <a target="_blank" href="https://www.gsb.stanford.edu/faculty-research/faculty/ilya-strebulaev">Professor Ilya Strebulaev</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.gsb.stanford.edu/faculty-research/faculty/ilya-strebulaev">Professor Ilya Strebulaev</a>
                   &nbsp;at&nbsp;
-                  <a target="_blank" href="https://www.gsb.stanford.edu/">Stanford GSB</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.gsb.stanford.edu/">Stanford GSB</a>
                   &nbsp;[2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Software Engineering Intern at the&nbsp;
-                    <a target="_blank" href="https://center4mi.org/">Center for Medial Interoperability</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://center4mi.org/">Center for Medial Interoperability</a>
                     &nbsp;[2020]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Venture Capital Analyst Intern at&nbsp;
-                  <a target="_blank" href="https://greatnorthlabs.com/">Great North Labs</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://greatnorthlabs.com/">Great North Labs</a>
                   &nbsp;[2019]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
                   <ListItemText>
                     - Associate at&nbsp;
-                  <a target="_blank" href="https://www.gener8tor.com/">gener8tor</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.gener8tor.com/">gener8tor</a>
                   &nbsp;|&nbsp;
-                  <a target="_blank" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
                   &nbsp;[2018]
                   </ListItemText>
                 </ListItem>
@@ -192,21 +193,21 @@ class Home extends React.Component {
           </div>
           <div>
             Source code for this website can be found on my&nbsp;
-            <a target="_blank" href="https://github.com/ianclim/ianlim.com">GitHub</a>.
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/ianclim/ianlim.com">GitHub</a>.
           </div>
           <div>
             Built using&nbsp;
-            <a target="_blank" href="https://reactjs.org/">React</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">React</a>
             ,&nbsp;
-            <a target="_blank" href="https://www.framer.com/api/motion/">Framer Motion</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.framer.com/api/motion/">Framer Motion</a>
             ,&nbsp;
-            <a target="_blank" href="https://material-ui.com/">Material UI</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://material-ui.com/">Material UI</a>
             ,&nbsp;
-            <a target="_blank" href="https://danmarshall.github.io/google-font-to-svg-path/">Google font to SVG path</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://danmarshall.github.io/google-font-to-svg-path/">Google font to SVG path</a>
             ,&nbsp;
-            <a target="_blank" href="https://www.theleagueofmoveabletype.com/raleway">League of Moveable Type</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.theleagueofmoveabletype.com/raleway">League of Moveable Type</a>
             ,&nbsp;
-            <a target="_blank" href="https://github.com/tameemsafi/typewriterjs#readme">TypewriterJS</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/tameemsafi/typewriterjs#readme">TypewriterJS</a>
           </div>
         </div>
       </div>

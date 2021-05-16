@@ -22,13 +22,27 @@ class Projects extends React.Component {
         </p>
         <p>
           I'm currently working on&nbsp;
-          <a target="_blank" href="https://www.applywithapi.com">Apply with API</a>
-          : a tool to enable any company to accept job applications through an API POST request. I'm also working on a new project in the home care industry. 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.applywithapi.com">OpenCare</a>
+          : a platform to enable home caregivers to become independent of home care agencies. I'm also working on a wearable EMG for a paralyzed individual 
+          to play the piano using their intentions to move their fingers to the correct keys. 
           For Stanford BCI's first year's project, we plan on building a wrist-based EMG wearable device to control a VR headset.
         </p>
+        <br/>
+        <h2 className="subHeader">
+          Previous projects:
+        </h2>
+        <h4 className="projectTitles" style={{ marginTop: -5 }}>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.applywithapi.com/">
+             Apply with API
+          </a>
+        </h4>
         <p>
-          Here's what I've previously worked on:
+          Apply with API is a tool to enable any company to accept job applications through an API POST request. 
         </p>
+        <div className="applyWithApiVideoContainer">
+          <iframe src="https://www.loom.com/embed/34dd747e38424abe8040508f6ef8d6d1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className="applyWithApiVideo">
+          </iframe>
+        </div>
         <h4 className="projectTitles">
           Early stroke detection wearable device
         </h4>
@@ -36,7 +50,7 @@ class Projects extends React.Component {
           I worked on a very, very early prototype for a wearable device for early stroke detection with one of my classmates.
           Identifying stroke outside of a professional medical environment is very difficult for most people. One of the most common tests for stroke outside of the hospital
           is called the&nbsp;
-          <a target="_blank" href="https://en.wikipedia.org/wiki/Pronator_drift">pronator drift</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Pronator_drift">pronator drift</a>
           &nbsp;test during which the patient extends both arms out in front of them, parallel to the ground, for 15-30 seconds with their palms facing up.
           If the patient's arm drifts downward and/or the palm pronates, the patient is said to have pronator drift in which one side of the body is weaker than the other.
           For the average person without any medical background, recognizing that someone else is experiencing pronator drift is highly subjective and
@@ -79,7 +93,7 @@ class Projects extends React.Component {
         <p>
           Our nonprofit, Generation MN, had the mission of inspiring and supporting young entrepreneurs to build something they love. We raised $4,000+ to organize
           five events over the course of a year, our flagship event being&nbsp;
-          <a target="_blank" href="https://www.eventbrite.com/e/techstars-startup-weekend-twin-cities-105-107-tickets-48171461137#">Startup Weekend</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.eventbrite.com/e/techstars-startup-weekend-twin-cities-105-107-tickets-48171461137#">Startup Weekend</a>
           &nbsp;where we hosted ~25 people who built out an idea during the 54 hour event.
         </p>
 

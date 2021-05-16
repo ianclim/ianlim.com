@@ -54,7 +54,7 @@ const readingList = [
   { title: "Einstein: His Life and Universe", url: "https://www.goodreads.com/book/show/10884.Einstein" },
   { title: "Creation: Life and How to Make It", url: "https://www.goodreads.com/book/show/304444.Creation" },
   { title: "The Box", url: "https://www.goodreads.com/book/show/316767.The_Box" },
-  { title: "Hackers \& Painters", url: "https://www.goodreads.com/book/show/41793.Hackers_Painters" },
+  { title: "Hackers & Painters", url: "https://www.goodreads.com/book/show/41793.Hackers_Painters" },
 ]
 
 class Bookshelf extends React.Component {
@@ -78,9 +78,9 @@ class Bookshelf extends React.Component {
         </p>
         <p>
           I'm currently reading&nbsp;
-          <a target="_blank" href="https://www.goodreads.com/book/show/54968118-the-code-breaker">The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/54968118-the-code-breaker">The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</a>
           &nbsp;by Walter Isaacson and&nbsp;
-          <a target="_blank" href="https://www.goodreads.com/book/show/55361205-a-promised-land?ac=1&from_search=true&qid=L4WMKsqqsk&rank=1">A Promised Land</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/55361205-a-promised-land?ac=1&from_search=true&qid=L4WMKsqqsk&rank=1">A Promised Land</a>
           &nbsp;by Barack Obama.
         </p>
         <h4 className="bodyTitles">
@@ -90,7 +90,7 @@ class Bookshelf extends React.Component {
           return (
             <ul>
               <li key={index}>
-                <a target="_blank" href={reading.url}>{reading.title}</a>
+                <a target="_blank" rel="noopener noreferrer" href={reading.url}>{reading.title}</a>
               </li>
             </ul>
           )
@@ -102,7 +102,7 @@ class Bookshelf extends React.Component {
           return (
             <ul>
               <li key={index}>
-                <a target="_blank" href={reading.url}>{reading.title}</a>
+                <a target="_blank" rel="noopener noreferrer" href={reading.url}>{reading.title}</a>
               </li>
             </ul>
           )
