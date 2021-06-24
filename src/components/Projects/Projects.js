@@ -21,11 +21,10 @@ class Projects extends React.Component {
           actually work on something that applies, builds on, leverages this new idea.
         </p>
         <p>
-          I'm currently working on&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.applywithapi.com">OpenCare</a>
-          : a platform to enable home caregivers to become independent of home care agencies. I'm also working on a wearable EMG for a paralyzed individual 
+          I'm currently working on improving home care and a wearable EMG for a paralyzed individual 
           to play the piano using their intentions to move their fingers to the correct keys. 
-          For Stanford BCI's first year's project, we plan on building a wrist-based EMG wearable device to control a VR headset.
+          In&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>, I'm focused on building wrist-based EMG wearable to control external computer interfaces.
         </p>
         <br/>
         <h2 className="subHeader">

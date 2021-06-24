@@ -80,8 +80,8 @@ class Bookshelf extends React.Component {
           I'm currently reading&nbsp;
           <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/54968118-the-code-breaker">The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</a>
           &nbsp;by Walter Isaacson and&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/55361205-a-promised-land?ac=1&from_search=true&qid=L4WMKsqqsk&rank=1">A Promised Land</a>
-          &nbsp;by Barack Obama.
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/36556202-the-coddling-of-the-american-mind">The Coddling of the American Mind</a>
+          &nbsp;by Greg Lukianoff and Jonathan Haidt.
         </p>
         <h4 className="bodyTitles">
           Favorite readings
