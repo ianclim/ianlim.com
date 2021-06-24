@@ -100,7 +100,10 @@ class Home extends React.Component {
                 I'm an undergrad at&nbsp;
               <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
               &nbsp;studying Computer Science.
-              I'm currently taking a leave of absence to work at Tesla along with a few personal projects.
+              I'm currently taking a leave of absence to work on improving home care and build a wearable EMG device for a paralyzed individual 
+          to play the piano using their intentions to move their fingers to the correct keys.
+              </p>
+              <p>
               At Stanford, I'm working with a few students to start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>
               , Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software. 
               I'm also on the&nbsp;
@@ -121,11 +124,7 @@ class Home extends React.Component {
                 Computer Organization and Systems with Lecturer Nick Troccoli.
               </p>
               <p>
-                I'm currently working on&nbsp;
-                <a target="_blank" rel="noopener noreferrer" href="https://www.joinopencare.com/">OpenCare</a>
-                : a platform to enable home caregivers to become independent of home care agencies and a wearable EMG device for a paralyzed individual 
-          to play the piano using their intentions to move their fingers to the correct keys. I also recently wrote about 
-                scaling open source through venture capital (<a target="_blank" rel="noopener noreferrer" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
+                I also recently wrote about scaling open source through venture capital (<a target="_blank" rel="noopener noreferrer" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
               </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
@@ -137,7 +136,7 @@ class Home extends React.Component {
                   <ListItemText>
                     - Product Management Intern at&nbsp;
                   <a target="_blank" rel="noopener noreferrer" href="https://www.tesla.com">Tesla</a>
-                  &nbsp;[Current]
+                  &nbsp;[2021]
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -174,7 +173,7 @@ class Home extends React.Component {
                   <ListItemText>
                     - Associate at&nbsp;
                   <a target="_blank" rel="noopener noreferrer" href="https://www.gener8tor.com/">gener8tor</a>
-                  &nbsp;|&nbsp;
+                  ,&nbsp;
                   <a target="_blank" rel="noopener noreferrer" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
                   &nbsp;[2018]
                   </ListItemText>
