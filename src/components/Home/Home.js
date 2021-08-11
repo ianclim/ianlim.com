@@ -22,6 +22,13 @@ const icon = {
   }
 }
 
+const experiences = [
+  { company: "Otter", role: "Product Manager", url: "https://withotter.com/", time: "Current" },
+  { company: "Tesla", role: "Product Management Intern", url: "https://www.tesla.com", time: "2021" },
+  { company: "Poshmark", team: "Search", role: "SWE & PM Intern", url: "https://poshmark.com/", time: "2020" },
+  { company: "Center for Medical Interoperability", role: "SWE Intern", url: "https://center4mi.org/", time: "2020" },
+]
+
 class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -71,7 +78,7 @@ class Home extends React.Component {
           </div>
           <Typewriter
             options={{
-              strings: ['Minnesota ⇄ California', 'Building something new', 'Future samoyed owner', 'Coffee lover'],
+              strings: ['Minnesota ⇄ California', 'Future samoyed owner', 'Coffee lover'],
               autoStart: true,
               loop: true,
               wrapperClassName: "typewriter",
@@ -82,10 +89,10 @@ class Home extends React.Component {
           <img src={profilePicture} height='200' width='200' className="profilePicture" alt="Ian Lim Profile" />
           <p style={{ textAlign: 'center' }}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
-              &nbsp;|&nbsp;
-              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/IanCLim">Twitter</a>
-              &nbsp;|&nbsp;
-              <a href="mailto:ianlim@stanford.edu">Email</a>
+            &nbsp;|&nbsp;
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/IanCLim">Twitter</a>
+            &nbsp;|&nbsp;
+            <a href="mailto:ianlim@stanford.edu">Email</a>
           </p>
           <div className="bodyText">
             <Box mt={3}>
@@ -98,19 +105,21 @@ class Home extends React.Component {
               />
               <p>
                 I'm an undergrad at&nbsp;
-              <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
-              &nbsp;studying Computer Science.
-              I'm currently taking a leave of absence to work on improving home care and build a wearable EMG device for a paralyzed individual 
-          to play the piano using their intentions to move their fingers to the correct keys.
+                <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
+                &nbsp;studying Computer Science.
+                I'm currently taking a leave of absence to work at&nbsp;
+                <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Otter</a>
+                &nbsp;as a PM and build a wearable EMG device for a paralyzed individual
+                to play the piano using their intentions to move their fingers to the correct keys.
               </p>
               <p>
-              At Stanford, I'm working with a few students to start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>
-              , Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software. 
-              I'm also on the&nbsp;
-              <a target="_blank" rel="noopener noreferrer" href="https://treehacks.com/">TreeHacks</a>
-              &nbsp;organizing team and Stanford's club basketball team.
-              Ever since I was young, I've been curious about how things work.
-              I'm most interested in learning about open source software, neural interfaces, API design, and healthcare infrastructure.
+                At Stanford, I'm working with a few students to start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>
+                , Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software.
+                I'm also on the&nbsp;
+                <a target="_blank" rel="noopener noreferrer" href="https://treehacks.com/">TreeHacks</a>
+                &nbsp;organizing team and Stanford's club basketball team.
+                Ever since I was young, I've been curious about how things work.
+                I'm most interested in learning about open source software, neural interfaces, API design, and healthcare infrastructure.
               </p>
               <p>
                 Some of my favorite classes at Stanford:
@@ -129,59 +138,21 @@ class Home extends React.Component {
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
                   Professional experiences
-                  </h2>
+                </h2>
               </Box>
               <List>
-                <ListItem>
-                  <ListItemText>
-                    - Product Management Intern at&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.tesla.com">Tesla</a>
-                  &nbsp;[2021]
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemText>
-                    - Software Engineering &amp; Product Management Intern at&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://poshmark.com/">Poshmark</a>
-                  , search team [2020]
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemText>
-                    - Research Assistant under&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.gsb.stanford.edu/faculty-research/faculty/ilya-strebulaev">Professor Ilya Strebulaev</a>
-                  &nbsp;at&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.gsb.stanford.edu/">Stanford GSB</a>
-                  &nbsp;[2020]
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemText>
-                    - Software Engineering Intern at the&nbsp;
-                    <a target="_blank" rel="noopener noreferrer" href="https://center4mi.org/">Center for Medial Interoperability</a>
-                    &nbsp;[2020]
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemText>
-                    - Venture Capital Analyst Intern at&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://greatnorthlabs.com/">Great North Labs</a>
-                  &nbsp;[2019]
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemText>
-                    - Associate at&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.gener8tor.com/">gener8tor</a>
-                  ,&nbsp;
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.gbetamedtech.com/">gBETA MedTech team</a>
-                  &nbsp;[2018]
-                  </ListItemText>
-                </ListItem>
+                {experiences.map((experience, index) => {
+                  return (
+                    <ListItem>
+                      <ListItemText>
+                        - {experience.role} at&nbsp;
+                        <a target="_blank" rel="noopener noreferrer" href={experience.url}>{experience.company}</a>
+                        &nbsp;[{experience.time}]
+                      </ListItemText>
+                    </ListItem>
+                  )})
+                }
               </List>
-              <p>
-                Favorite languages/frameworks: MERN stack, Javascript, Python, Pandas
-              </p>
             </Box>
           </div>
         </div>
