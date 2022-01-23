@@ -58,10 +58,6 @@ const readingList = [
 ]
 
 class Bookshelf extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="parent">
@@ -78,10 +74,10 @@ class Bookshelf extends React.Component {
         </p>
         <p>
           I'm currently reading&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/54968118-the-code-breaker">The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</a>
-          &nbsp;by Walter Isaacson and&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/36556202-the-coddling-of-the-american-mind">The Coddling of the American Mind</a>
-          &nbsp;by Greg Lukianoff and Jonathan Haidt.
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/13642710-nexus">Nexus</a>
+          &nbsp;by Ramez Naam and&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/44767458-dune">Dune</a>
+          &nbsp;by Frank Herbert.
         </p>
         <h4 className="bodyTitles">
           Favorite readings

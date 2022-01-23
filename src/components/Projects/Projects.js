@@ -5,10 +5,6 @@ const prototype1 = require('../../assets/prototype_v0.1.png');
 const prototype2 = require('../../assets/prototype_v0.2.png');
 
 class Projects extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="parent">
@@ -39,7 +35,7 @@ class Projects extends React.Component {
           Apply with API is a tool to enable any company to accept job applications through an API POST request. 
         </p>
         <div className="applyWithApiVideoContainer">
-          <iframe src="https://www.loom.com/embed/34dd747e38424abe8040508f6ef8d6d1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className="applyWithApiVideo">
+          <iframe src="https://www.loom.com/embed/34dd747e38424abe8040508f6ef8d6d1" title="Apply with API demo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className="applyWithApiVideo">
           </iframe>
         </div>
         <h4 className="projectTitles">

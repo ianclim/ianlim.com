@@ -23,17 +23,13 @@ const icon = {
 }
 
 const experiences = [
-  { company: "Otter", role: "Product Manager", url: "https://withotter.com/", time: "Current" },
+  { company: "Otter", role: "SWE & PM", url: "https://withotter.com/", time: "Current" },
   { company: "Tesla", role: "Product Management Intern", url: "https://www.tesla.com", time: "2021" },
   { company: "Poshmark", team: "Search", role: "SWE & PM Intern", url: "https://poshmark.com/", time: "2020" },
   { company: "Center for Medical Interoperability", role: "SWE Intern", url: "https://center4mi.org/", time: "2020" },
 ]
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
@@ -109,7 +105,7 @@ class Home extends React.Component {
                 &nbsp;studying Computer Science.
                 I'm currently taking a leave of absence to work at&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Otter</a>
-                &nbsp;as a PM and build a wearable EMG device for a paralyzed individual
+                &nbsp;as a SWE + PM and build a wearable EMG device for a paralyzed individual
                 to play the piano using their intentions to move their fingers to the correct keys.
               </p>
               <p>
@@ -133,7 +129,7 @@ class Home extends React.Component {
                 Computer Organization and Systems with Lecturer Nick Troccoli.
               </p>
               <p>
-                I also recently wrote about scaling open source through venture capital (<a target="_blank" rel="noopener noreferrer" href="https://ianclim.medium.com/scaling-open-source-through-venture-capital-faf9fbb07613">link to article</a>).
+                A few friends in the BCI space and I recently wrote a Twitter thread reviewing the most important BCI advancements/news from 2021 (<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/IanCLim/status/1483517120499511299?s=20">link to thread</a>).
               </p>
               <Box mb={-2} mt={5}>
                 <h2 className="bodyTitle">
