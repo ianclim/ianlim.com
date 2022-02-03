@@ -1,7 +1,7 @@
 ## Hi! This is my personal website. 
 
 ## Credit:
-Built using [React Native](https://reactjs.org)<br />
+Built using [React](https://reactjs.org)<br />
 Name animation: [Framer Motion API](https://www.framer.com/api/motion/)<br />
 Design and styling: [Material UI](https://material-ui.com)<br />
 SVG path name: [Google font to SVG path](https://danmarshall.github.io/google-font-to-svg-path/)<br />
