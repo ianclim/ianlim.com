@@ -32,7 +32,7 @@ class Projects extends React.Component {
         <p>
           Apply with API is a tool to enable any company to accept job applications through an API POST request. 
         </p>
-        <img src={applywithapi} alt="Apply with API demo" />
+        <img src={applywithapi} alt="Apply with API demo" className="applyWithApiImage" />
         <h4 className="projectTitles">
           Early stroke detection wearable device
         </h4>
