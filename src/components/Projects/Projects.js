@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 
+const applywithapi = require('../../assets/applywithapi_demo.png');
 const prototype1 = require('../../assets/prototype_v0.1.png');
 const prototype2 = require('../../assets/prototype_v0.2.png');
 
@@ -17,10 +18,7 @@ class Projects extends React.Component {
           actually work on something that applies, builds on, leverages this new idea.
         </p>
         <p>
-          I'm currently working on improving home care and a wearable EMG for a paralyzed individual 
-          to play the piano using their intentions to move their fingers to the correct keys. 
-          In&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>, I'm focused on building wrist-based EMG wearable to control external computer interfaces.
+          I'm currently working on a project in the DAO tooling space and a wearable EMG for a paralyzed individual control external interfaces. 
         </p>
         <br/>
         <h2 className="subHeader">
@@ -34,10 +32,7 @@ class Projects extends React.Component {
         <p>
           Apply with API is a tool to enable any company to accept job applications through an API POST request. 
         </p>
-        <div className="applyWithApiVideoContainer">
-          <iframe src="https://www.loom.com/embed/34dd747e38424abe8040508f6ef8d6d1" title="Apply with API demo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen className="applyWithApiVideo">
-          </iframe>
-        </div>
+        <img src={applywithapi} alt="Apply with API demo" />
         <h4 className="projectTitles">
           Early stroke detection wearable device
         </h4>

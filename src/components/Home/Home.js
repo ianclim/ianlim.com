@@ -23,10 +23,8 @@ const icon = {
 }
 
 const experiences = [
-  { company: "Otter", role: "SWE & PM", url: "https://withotter.com/", time: "Current" },
-  { company: "Tesla", role: "Product Management Intern", url: "https://www.tesla.com", time: "2021" },
-  { company: "Poshmark", team: "Search", role: "SWE & PM Intern", url: "https://poshmark.com/", time: "2020" },
-  { company: "Center for Medical Interoperability", role: "SWE Intern", url: "https://center4mi.org/", time: "2020" },
+  { company: "Otter", role: "SWE & PM", url: "https://withotter.com/", time: "2021-2022" },
+  { company: "Tesla", role: "Product Management Intern", url: "https://www.tesla.com", time: "2021" }
 ]
 
 class Home extends React.Component {
@@ -82,7 +80,6 @@ class Home extends React.Component {
               delay: 60
             }}
           />
-          <img src={profilePicture} height='200' width='200' className="profilePicture" alt="Ian Lim Profile" />
           <p style={{ textAlign: 'center' }}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ianclim/">LinkedIn</a>
             &nbsp;|&nbsp;
@@ -102,20 +99,20 @@ class Home extends React.Component {
               <p>
                 I'm an undergrad at&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
-                &nbsp;studying Computer Science.
-                I'm currently taking a leave of absence to work at&nbsp;
-                <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Otter</a>
-                &nbsp;as a SWE + PM and build a wearable EMG device for a paralyzed individual
-                to play the piano using their intentions to move their fingers to the correct keys.
+                &nbsp;studying Computer Science + Neuroscience. I'm currently exploring a project in the DAO tooling space and helping out at&nbsp;
+                <a target="_blank" rel="noopener noreferrer" href="https://joininteract.com/">Interact</a>.
+                I was previously at a startup called Otter as their first software engineer and product manager. 
               </p>
               <p>
-                At Stanford, I'm working with a few students to start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a>
-                , Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software.
+                At Stanford, I'm doing research on a wearable EMG device to control external interfaces under the&nbsp;
+                <a target="_blank" rel="noopener noreferrer" href="https://shape.stanford.edu/">Shape Lab</a>. 
+                I helped start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a> 
+                &nbsp;in 2021, Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software.
                 I'm also on the&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://treehacks.com/">TreeHacks</a>
                 &nbsp;organizing team and Stanford's club basketball team.
                 Ever since I was young, I've been curious about how things work.
-                I'm most interested in learning about open source software, neural interfaces, API design, and healthcare infrastructure.
+                I'm most interested in learning about neural interfaces, distributed organizations, and financial infrastructure.
               </p>
               <p>
                 Some of my favorite classes at Stanford:
