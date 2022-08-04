@@ -99,7 +99,7 @@ class Home extends React.Component {
               <p>
                 I'm an undergrad at&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
-                &nbsp;studying Computer Science + Neuroscience. I'm currently exploring a project in the DAO tooling space and helping out at&nbsp;
+                &nbsp;studying Computer Science + Neuroscience. I'm currently working on a project to help seniors age in place and helping out at&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://joininteract.com/">Interact</a>.
                 I was previously at a startup called Otter as their first software engineer and product manager. 
               </p>
