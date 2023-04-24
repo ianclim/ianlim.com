@@ -18,15 +18,25 @@ class Projects extends React.Component {
           actually work on something that applies, builds on, leverages this new idea.
         </p>
         <p>
-          I'm currently working on a project in the DAO tooling space and a wearable EMG for a paralyzed individual control external interfaces. 
+          I'm currently working on a project in the elder care space.
         </p>
         <br/>
         <h2 className="subHeader">
           Previous projects:
         </h2>
         <h4 className="projectTitles" style={{ marginTop: -5 }}>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.applywithapi.com/">
-             Apply with API
+        [2021]&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://www.loom.com/share/ac3896defa504094b64883ea0a0d39fe">
+            Compare open source GitHub projects
+          </a>
+        </h4>
+        <p>
+          Tool to compare open source GitHub projects based on number of stars, forks, and other metrics.
+        </p>
+        <h4 className="projectTitles" style={{ marginTop: -5 }}>
+        [2020]&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://www.loom.com/share/34dd747e38424abe8040508f6ef8d6d1">
+            Apply with API
           </a>
         </h4>
         <p>
@@ -34,7 +44,7 @@ class Projects extends React.Component {
         </p>
         <img src={applywithapi} alt="Apply with API demo" className="applyWithApiImage" />
         <h4 className="projectTitles">
-          Early stroke detection wearable device
+          [2017] Early stroke detection wearable device
         </h4>
         <p>
           I worked on a very, very early prototype for a wearable device for early stroke detection with one of my classmates.
@@ -68,7 +78,7 @@ class Projects extends React.Component {
           </div>
         </div>
         <h4 className="projectTitles">
-          Marketplace that connects local businesses with consumers
+          [2016] Marketplace that connects local businesses with consumers
         </h4>
         <p>
           A few friends and I decided to create a better discount aggregator from local businesses. The other discount programs that existed in our area were primarily used
@@ -78,7 +88,7 @@ class Projects extends React.Component {
           $8,000+, and donated all $5,000 of our profits to a local charity.
         </p>
         <h4 className="projectTitles">
-          Nonprofit to help young entrepreneurs build their ideas
+          [2016] Nonprofit to help young entrepreneurs build their ideas
         </h4>
         <p>
           Our nonprofit, Generation MN, had the mission of inspiring and supporting young entrepreneurs to build something they love. We raised $4,000+ to organize

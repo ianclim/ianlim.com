@@ -65,7 +65,7 @@ class Bookshelf extends React.Component {
           Bookshelf
         </h1>
         <p>
-          I'm always excited to learn about new book recommendations from others. I'm currently interested in learning more about the rapid growth in many areas of Asia, API design/applications, and brain machine interfaces.
+          I'm always excited to learn about new book recommendations from others. I'm currently interested in learning more about Asian American identity in America and brain machine interfaces.
         </p>
         <p>
           I haven't found a permanent tool to track my reading list, so I decided to upload it here instead. I've created two lists:
@@ -74,10 +74,9 @@ class Bookshelf extends React.Component {
         </p>
         <p>
           I'm currently reading&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/13642710-nexus">Nexus</a>
-          &nbsp;by Ramez Naam and&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/44767458-dune">Dune</a>
-          &nbsp;by Frank Herbert.
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack">Poor Charlie's Almanack</a>
+          &nbsp;and&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/en/book/show/59696349">Build</a>.
         </p>
         <h4 className="bodyTitles">
           Favorite readings
