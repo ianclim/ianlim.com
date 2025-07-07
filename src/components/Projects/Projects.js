@@ -18,14 +18,22 @@ class Projects extends React.Component {
           actually work on something that applies, builds on, leverages this new idea.
         </p>
         <p>
-          I'm currently working on a project in the elder care space and <a target="_blank" rel="noopener noreferrer" href="https://www.nba-gpt.com">NBA GPT</a> (demo below).
+          I'm currently working on something new in the healthcare AI space, specifically for older and disabled adults.
         </p>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7056703236971397120?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
         <br/>
         <h2 className="subHeader">
           Previous projects:
         </h2>
+        <h4 className="projectTitles" style={{ marginTop: -5 }}>
+        [2024]&nbsp;
+          <a target="_blank" rel="noopener noreferrer" href="https://www.nba-gpt.com">NBA GPT</a>
+        </h4>
+        <p>
+          NBA GPT is an AI-powered tool for basketball analysis and insights.
+        </p>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7056703236971397120?compact=1" height="399" width="710" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
         <h4 className="projectTitles" style={{ marginTop: -5 }}>
         [2021]&nbsp;
           <a target="_blank" rel="noopener noreferrer" href="https://www.loom.com/share/ac3896defa504094b64883ea0a0d39fe">

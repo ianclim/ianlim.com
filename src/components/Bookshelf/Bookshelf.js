@@ -20,6 +20,8 @@ const favoriteReadings = [
   { title: "Steve Jobs Biography", url: "https://www.goodreads.com/book/show/11084145-steve-jobs" },
   { title: "1984", url: "https://www.goodreads.com/book/show/40961427-1984" },
   { title: "Shoe Dog", url: "https://www.goodreads.com/book/show/27220736-shoe-dog" },
+  { title: "Build", url: "https://www.goodreads.com/en/book/show/59696349" },
+  { title: "Super Pumped", url: "https://www.goodreads.com/book/show/44598005-super-pumped" },
 ]
 
 const readingList = [
@@ -33,7 +35,6 @@ const readingList = [
   { title: "A Culture of Growth", url: "https://www.goodreads.com/book/show/29452523-a-culture-of-growth#:~:text=In%20this%20groundbreaking%20book%2C%20celebrated,explosive%20technological%20and%20economic%20development." },
   { title: "The Art of Doing Science and Engineering", url: "https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering "},
   { title: "Anthem", url: "https://www.goodreads.com/book/show/667.Anthem" },
-  { title: "Where Wizards Stay Up Late", url: "https://www.goodreads.com/book/show/281818.Where_Wizards_Stay_Up_Late" },
   { title: "I am Malala", url: "https://www.goodreads.com/book/show/17851885-i-am-malala" },
   { title: "21 Lessons for the 21st Century", url: "https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century" },
   { title: "High Output Management", url: "https://www.goodreads.com/book/show/324750.High_Output_Management" },
@@ -46,7 +47,6 @@ const readingList = [
   { title: "How Not to be Wrong: The Power of Mathematical Thinking", url: "https://www.goodreads.com/book/show/18693884-how-not-to-be-wrong" },
   { title: "Richard Feynman", url: "https://www.goodreads.com/book/show/56165.Richard_Feynman" },
   { title: "No Rules Rules", url: "https://www.goodreads.com/book/show/49099937-no-rules-rules" },
-  { title: "Poor Charlie's Almanack", url: "https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack" },
   { title: "The Selfish Gene", url: "https://www.goodreads.com/book/show/61535.The_Selfish_Gene" },
   { title: "Behind the Cloud", url: "https://www.goodreads.com/book/show/6659874-behind-the-cloud" },
   { title: "Loonshots", url: "https://www.goodreads.com/book/show/39863447-loonshots" },
@@ -76,7 +76,7 @@ class Bookshelf extends React.Component {
           I'm currently reading&nbsp;
           <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/944652.Poor_Charlie_s_Almanack">Poor Charlie's Almanack</a>
           &nbsp;and&nbsp;
-          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/en/book/show/59696349">Build</a>.
+          <a target="_blank" rel="noopener noreferrer" href="https://www.goodreads.com/book/show/281818.Where_Wizards_Stay_Up_Late">Where Wizards Stay Up Late</a>.
         </p>
         <h4 className="bodyTitles">
           Favorite readings

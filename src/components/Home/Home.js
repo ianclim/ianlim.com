@@ -97,20 +97,18 @@ class Home extends React.Component {
                 transition={{ duration: 0.5 }}
               />
               <p>
-                I'm an undergrad at&nbsp;
+                I completed my undergraduate degree at&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://www.stanford.edu/">Stanford University</a>
-                &nbsp;studying Computer Science + Neuroscience. I'm currently working on a project to help seniors age in place and helping out at&nbsp;
-                <a target="_blank" rel="noopener noreferrer" href="https://joininteract.com/">Interact</a>.
-                I was previously at a startup called 
+                &nbsp;studying Computer Science + Neuroscience. I recently dropped out of Stanford's CS master's program to start a healthcare AI company. I was previously at a startup called 
                 <a target="_blank" rel="noopener noreferrer" href="https://withotter.com/blog-posts/series-a"> Otter</a>
-                &nbsp;as their first software engineer and product manager. 
+                &nbsp;as their first software engineer and product manager, and before that I interned at Tesla in product management.
               </p>
               <p>
-                At Stanford, I'm doing research on a wearable EMG device to control external interfaces under the&nbsp;
+                At Stanford, I did research on a wearable EMG device to control external interfaces under the&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://shape.stanford.edu/">Shape Lab</a>. 
                 I helped start <a target="_blank" rel="noopener noreferrer" href="https://stanfordbci.com/">Stanford BCI</a> 
                 &nbsp;in 2021, Stanford's first student organization dedicated to building non-invasive brain-computer interface hardware and software.
-                I'm also on the&nbsp;
+                I was also on the&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://treehacks.com/">TreeHacks</a>
                 &nbsp;organizing team and Stanford's club basketball team.
                 Ever since I was young, I've been curious about how things work.
@@ -130,24 +128,7 @@ class Home extends React.Component {
               <p>
                 A few friends in the BCI space and I recently wrote a Twitter thread reviewing the most important BCI advancements/news from 2021 (<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/IanCLim/status/1483517120499511299?s=20">link to thread</a>).
               </p>
-              <Box mb={-2} mt={5}>
-                <h2 className="bodyTitle">
-                  Professional experiences
-                </h2>
-              </Box>
-              <List>
-                {experiences.map((experience, index) => {
-                  return (
-                    <ListItem>
-                      <ListItemText>
-                        - {experience.role} at&nbsp;
-                        <a target="_blank" rel="noopener noreferrer" href={experience.url}>{experience.company}</a>
-                        &nbsp;[{experience.time}]
-                      </ListItemText>
-                    </ListItem>
-                  )})
-                }
-              </List>
+              
             </Box>
           </div>
         </div>
